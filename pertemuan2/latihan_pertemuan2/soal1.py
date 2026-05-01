@@ -7,7 +7,7 @@ print("-------------------------------------------------------------------------
 #1. Tambahkan angka 60 ke dalam list.
 print("SOAL 1.1")
 angka = [10, 20, 30, 40, 50]
-angka = [10, 20, 30, 40, 50, 60]
+angka.append(60)
 print(angka)
 
 print("---------------------------------------------------------------------------------------------------")
@@ -21,15 +21,15 @@ print("-------------------------------------------------------------------------
 #3. Tampilkan angka tertinggi dan terendah
 print("SOAL 1.3")
 angka = [10, 20, 30, 40, 50]
-print(angka[0])
-print(angka[4])
+print(max(angka))
+print(min(angka))
 
 print("---------------------------------------------------------------------------------------------------")
 #4. Hitung rata-rata angka setelah perubahan data
 print("SOAL 1.4")
 angka = [10, 20, 30, 40, 50]
-total = sum(angka) / len(angka)
-print(total)
+rata_rata = sum(angka) / len(angka)
+print(rata_rata)
 
 print("---------------------------------------------------------------------------------------------------")
 #5. Tampilkan seluruh isi list setelah perubahan.
